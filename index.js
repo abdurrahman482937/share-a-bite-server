@@ -6,6 +6,7 @@ import helmet from "helmet";
 import cors from "cors";
 import { MongoClient } from "mongodb";
 
+
 const app = express();
 const PORT = process.env.PORT || 8000;
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://share_a_bite_main_db:pAss123@cluster0.xdnshxt.mongodb.net/?appName=Cluster0";
@@ -289,3 +290,4 @@ app.all("*", (req, res) => res.status(404).json({ error: "Route not found" }));
         process.exit(1);
     }
 })();
+
