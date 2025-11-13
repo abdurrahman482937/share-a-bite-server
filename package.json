@@ -1,0 +1,32 @@
+{
+  "name": "plate-share",
+  "version": "1.0.0",
+  "description": "A platform for sharing surplus food with the community to reduce waste. Users can post and request donated food items.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "food",
+    "donate",
+    "community",
+    "sharing",
+    "sustainability",
+    "waste reduction"
+  ],
+  "author": "abdurrahman",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.11.1",
+    "helmet": "^7.0.0",
+    "mongodb": "^5.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
